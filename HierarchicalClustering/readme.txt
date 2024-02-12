@@ -11,8 +11,7 @@ Intro to Hierarchical clustering:
   (or, to put it differently, two of the r + 1 clusters combine to yield r clusters)
 
 - visually represented as the dendogram 
-	> length of line represent what was clustered first
-	> 
+	> length of branch represents what was clustered first
 
 Application:
 - Analyze the gene expression data 
