@@ -1,6 +1,6 @@
 Intro to Hierarchical clustering:
 
-- Handy method in bioinformatics and all of data science to s group the data 
+- Handy method in bioinformatics and all of data science to group the data 
   into different groups/clusters in order(built either bottom up (agglomerative) 
   or topdown(divisive)).
 
