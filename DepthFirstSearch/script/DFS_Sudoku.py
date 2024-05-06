@@ -1,6 +1,6 @@
+from letters_transform import to_letters, to_numbers, check_if_letters
 import copy
 import time
-from letters_transform import to_letters, to_numbers, check_if_letters
 
 class Problem(object):
 
@@ -144,19 +144,3 @@ def DFS_solve(board):
     print ("Elapsed time: " + str(elapsed_time) + " seconds")
 
 
-#########################################################################
-#from DFS_Sudoku import DFS_solve
-
-print ("\n\nTesting on easy 6x6 grid...")
-grid = [[6,0,0,0,0,0],
-      [0,0,1,3,0,6],
-      [0,0,4,0,0,0],
-      [1,2,0,0,0,0],
-      [0,0,0,0,0,4],
-      [3,0,5,0,0,0]]
-
-print ("Problem:")
-for row in grid:
-      print (row)
-
-DFS_solve(grid)
