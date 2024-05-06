@@ -2,6 +2,7 @@ from letters_transform import to_letters, to_numbers, check_if_letters
 import copy
 import time
 
+###########################
 class Problem(object):
 
     def __init__(self, initial):
@@ -92,6 +93,8 @@ class Problem(object):
             new_state[row][column] = number
             yield new_state
 
+###########################
+
 class Node:
 
     def __init__(self, state):
@@ -100,6 +103,8 @@ class Node:
     def expand(self, problem):
         # Return list of valid states
         return [Node(state) for state in problem.actions(self.state)]
+
+###########################
 
 def DFS(problem):
     start = Node(problem.initial)
